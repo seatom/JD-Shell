@@ -1,7 +1,7 @@
 FROM node:lts-alpine
-ARG JD_BASE_URL=https://hub.fastgit.org/wuzhi04/jd-base.git
+ARG JD_BASE_URL=https://github.com/seatom/JD-Shell.git
 ARG JD_BASE_BRANCH=main
-ARG JD_SCRIPTS_URL=https://hub.fastgit.org/wuzhi04/MyActions.git
+ARG JD_SCRIPTS_URL=https://github.com/seatom/JD-Scripts.git
 ARG JD_SCRIPTS_BRANCH=main
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     LANG=zh_CN.UTF-8 \
